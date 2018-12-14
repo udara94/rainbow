@@ -1,0 +1,85 @@
+
+.colorPalette{
+    position: absolute; bottom: 0px; 
+}
+.div1{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+    border-style: groove;
+}
+
+.div2{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+    border-style: groove;
+}
+
+#start1,#stop1,#stop2,#start2{
+
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:#4CAF50 ;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+#start2:hover{
+    background-color: gray
+}
+#stop2:hover{
+    background-color: gray
+}
+#stop1:hover{
+    background-color: gray
+}
+#start1:hover{
+    background-color: gray
+}
+
+
+
+.btnvio,.btnind,.btnblu,.btnyel,.btnorg,.btnred,.btngre{
+    
+    padding: 15px 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+/* .btnvio,.btnind,.btnblu,.btnyel,.btnorg,.btnred,.btngre:hover {background-color: #d41620}
+  
+.btnvio,.btnind,.btnblu,.btnyel,.btnorg,.btnred,.btngre:active {
+  background-color: #f01212;
+  box-shadow: 0 5px rgb(8, 3, 3);
+  transform: translateY(4px);
+} */
+
+.btnvio{
+    background-color: violet;
+}
+.btnind{
+    background-color: indigo;
+}
+.btnblu{
+    background-color: blue;
+}
+.btnyel{
+    background-color: yellow;
+}
+.btnorg{
+    background-color: orange;
+}
+.btnred{
+    background-color: red;
+}
+.btngre{
+    background-color: green;
+}
